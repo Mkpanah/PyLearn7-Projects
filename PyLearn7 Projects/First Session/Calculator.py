@@ -1,5 +1,4 @@
 import math
-import numpy as np
 sign = input("Operation = ")
 
 if sign == "+" or sign =="-" or sign == "*" or sign == "/":
