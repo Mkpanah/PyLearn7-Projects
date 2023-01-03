@@ -31,7 +31,10 @@ else:
 
     elif sign == "tan":
         a *= math.pi / 180
-        print(f"The Result is: {round(math.tan(a), 3)}")
+        if math.cos(a) == 0:
+            print("Not Proper")
+        else:
+            print(f"The Result is: {round(math.sin(a) / math.cos(a), 3)}")
 
     elif sign == "cos":
         a *= math.pi / 180
@@ -39,10 +42,13 @@ else:
 
     elif sign == "cot":
         a *= math.pi / 180
-        print(f"The Result is: {np.round(math.cos(a) / math.sin(a), 3)}")
+        if math.sin(a) == 0:
+            print("Not Proper")
+        else:
+            print(f"The Result is: {round(math.cos(a) / math.sin(a), 3)}")
 
     elif sign == "sqrt":
-        print(f"The Result is: {np.round(math.sqrt(a), 3)}")
+        print(f"The Result is: {round(math.sqrt(a), 3)}")
 
     elif sign == "factorial":
         a = int(a)
