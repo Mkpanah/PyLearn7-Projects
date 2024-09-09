@@ -9,7 +9,7 @@ Title, Production Year, Duration, URL, Imdb Score, Director, Casts and Genre.
 ### Series
 Title, Production Year, Duration, URL, Imdb Score, number of seasons, number of the episodes, Director, Casts and Genre.
 
-### Documentarieس
+### Documentaries
 Title, Production Year, Duration, URL, Imdb Score, Director, Casts and Subject.
 
 ### Clips
